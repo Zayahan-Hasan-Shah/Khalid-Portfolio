@@ -29,5 +29,9 @@ dist-ssr
 *.zip
 *.pptx
 *.docx
-*.pdf
+# Personal CVs/Resumes (must not be uploaded)
+*Resume*
+*resume*
+*CV*
+*cv*
 *.lnk
