@@ -53,7 +53,7 @@ const AboutSection = () => {
           className="text-center mb-16"
         >
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-heading font-bold text-foreground">
-            Why You Hire Me?
+            About Me
           </h2>
           <p className="mt-4 text-muted-foreground max-w-lg mx-auto text-sm md:text-base">
             Marketing, PR & Communications Professional focusing on strategic communications and creative execution.
