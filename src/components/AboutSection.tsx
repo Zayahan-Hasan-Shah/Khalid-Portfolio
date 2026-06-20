@@ -56,7 +56,7 @@ const AboutSection = () => {
             Why You Hire Me?
           </h2>
           <p className="mt-4 text-muted-foreground max-w-lg mx-auto text-sm md:text-base">
-            Creative problem-solver & Media Professional focused on crafting clean, user-friendly experiences.
+            Marketing, PR & Communications Professional focusing on strategic communications and creative execution.
           </p>
         </motion.div>
 
@@ -66,41 +66,43 @@ const AboutSection = () => {
           transition={{ duration: 0.6, delay: 0.2 }}
           className="lg:col-span-4 space-y-6 mb-6"
         >
+          <h3 className="text-lg md:text-xl font-heading font-semibold text-coral mb-6 text-center uppercase tracking-wide">
+            Syed Khalid Hassan — Marketing, PR & Communications Professional
+          </h3>
+
           <p className="text-sm text-center leading-relaxed text-muted-foreground first-letter:text-4xl first-letter:font-heading first-letter:font-bold first-letter:mr-1 first-letter:float-left first-letter:text-foreground">
-            I’m Syed Khalid, a Creative Media, Marketing & Content Specialist with over 5 years of experience in content production, digital marketing, campaign execution, and influencer driven storytelling. I specialize in transforming creative ideas into high-impact visuals, engaging campaigns, and digital experiences that strengthen brand identity and connect with modern audiences.
-          </p>
-          {/* <p className="text-sm text-center leading-relaxed text-muted-foreground first-letter:text-4xl first-letter:font-heading first-letter:font-bold first-letter:mr-1 first-letter:float-left first-letter:text-foreground">
-            I’m Ghayyas Qureshi, a BS Media Studies graduate and CEO of GCH, a 360° marketing company built on creativity, precision, and execution. My core strength lies in production and photography, where I bring concepts to life through compelling visuals and seamless storytelling. From managing full-scale productions to capturing powerful moments behind the lens, I focus on delivering high-quality, detail-driven work that elevates every project.
-          </p> */}
-          <p className="text-sm text-center leading-relaxed text-muted-foreground ">
-            My expertise goes beyond photography and videography .I work across the complete creative process, including campaign strategy, brand storytelling, production, editing, content marketing, and influencer collaborations. From fashion shoots and product campaigns to awareness projects and social media activations, I combine creativity with strategic thinking to create content that is visually powerful, audience-focused, and results-driven.
+            I'm a BS Media Sciences graduate with hands-on experience across public relations, campaign management, editorial publishing, and corporate event coordination. My work sits at the intersection of strategic communications and creative execution, and I bring both to every project I take on.
           </p>
 
           <p className="text-sm text-center leading-relaxed text-muted-foreground ">
-            As a content creator and influencer, I have built a strong digital presence across Instagram and YouTube, generating millions of views through storytelling-based content, creative campaigns, and engaging visual experiences. My understanding of audience behavior, platform trends, and digital engagement allows me to create content that not only captures attention but leaves a lasting impact.
+            My industry experience is rooted in travel, hospitality, and aviation. Through two internships with AVIAREPS, representing clients including the Brazilian Trade Commission, I coordinated international trade events, managed media and influencer relations, drafted press releases, and produced newsletters that reached professional audiences across the region. These roles sharpened my ability to manage multiple stakeholders, maintain brand consistency under pressure, and deliver polished communications in fast-moving environments.
           </p>
 
           <p className="text-sm text-center leading-relaxed text-muted-foreground ">
-            I’m equally comfortable behind and in front of the camera, with experience in acting, hosting, modeling, on-camera appearances, and influencer style content creation. Whether leading a production, presenting on screen, or collaborating with brands, I bring confidence, creativity, adaptability, and authenticity to every project.
+            Beyond PR, I have led end-to-end advocacy and awareness campaigns for government bodies and NGOs, including a national digital rights campaign and a road safety initiative for the National Highways and Motorways Police. Both required cross-functional coordination, narrative development, and results-driven reporting.
           </p>
 
           <p className="text-sm text-center leading-relaxed text-muted-foreground ">
-            Over the years, I have contributed to TVCs, DVCs, talk shows, short films, corporate productions, branded campaigns, and influencer collaborations while working with creative teams, businesses, and clients across multiple industries. With a strong foundation in both production and marketing, I approach every project with a balance of artistic vision, technical precision, and brand-focused execution.
+            My editorial background adds another dimension to my work. As a sub-editor and writer for SouthAsia Magazine, I wrote features, book reviews, and contributed to editorial planning for a professional publication covering geopolitics and current affairs. That experience gave me a strong command of tone, accuracy, and audience-aware writing that I carry into every brief.
           </p>
 
           <p className="text-sm text-center leading-relaxed text-muted-foreground ">
-            My goal is simple to create meaningful content, campaigns, and visual experiences that inspire audiences, elevate brands, and stand out in today’s fast moving digital world.
+            I am comfortable working across Mailchimp, Canva, WordPress, and Workplace, and I am equally at home coordinating an on-ground event or crafting a long-form communications strategy.
+          </p>
+
+          <p className="text-sm text-center leading-relaxed text-muted-foreground ">
+            If you are looking for someone who combines journalism instincts with PR discipline and marketing sensibility, I would love to connect.
           </p>
 
           <div className="pt-4 border-t  text-center border-border">
             <p className="font-heading font-semibold text-lg text-foreground">
-              Syed Khalid
+              Syed Khalid Hassan
             </p>
             <p className="text-xs text-muted-foreground mt-1">
-              Media Professional
+              Marketing, PR & Communications Professional
             </p>
             <p className="font-heading italic text-lg text-foreground/50 mt-3">
-              Syed Khalid
+              Syed Khalid Hassan
             </p>
           </div>
         </motion.div>
@@ -147,7 +149,7 @@ const AboutSection = () => {
               <div className="w-60 h-80 md:w-72 md:h-96 rounded-full overflow-hidden border-4 border-secondary">
                 <img
                   src={professionalPhoto}
-                  alt="Syed Khalid - Media Professional"
+                  alt="Syed Khalid Hassan - Marketing & PR Professional"
                   className="w-full h-full object-cover"
                   loading="lazy"
                 />

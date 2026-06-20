@@ -1,10 +1,5 @@
 import { motion } from "framer-motion";
 import picImg from "../assets/PIC.jpg";
-import avatar1 from "../assets/Creatives and Campaigns/Futre of AI in Pakistan Cinema/1.jpeg";
-import avatar2 from "../assets/Creatives and Campaigns/Futre of AI in Pakistan Cinema/2.jpeg";
-import avatar3 from "../assets/Creatives and Campaigns/Futre of AI in Pakistan Cinema/3.jpeg";
-
-const avatars = [avatar1, avatar2, avatar3, picImg];
 
 const Hero = () => {
   return (
@@ -38,7 +33,7 @@ const Hero = () => {
                 <h1 className="text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-heading font-bold leading-tight text-foreground uppercase tracking-wide">
                   Hello I'm
                   <br />
-                  Syed Khalid
+                  Syed Khalid Hassan
                 </h1>
               </div>
             </div>
@@ -55,7 +50,7 @@ const Hero = () => {
               <div className="w-full h-full rounded-[50%_50%_45%_45%/38%_38%_55%_55%] overflow-hidden bg-muted">
                 <img
                   src={picImg}
-                  alt="Syed Khalid - Creative Media & Campaigns"
+                  alt="Syed Khalid Hassan - Marketing & PR Professional"
                   className="w-full h-full object-cover object-top"
                   loading="eager"
                 />
@@ -64,7 +59,7 @@ const Hero = () => {
           </motion.div>
 
           {/* "10 Years Of Experience" badge — top right near portrait */}
-          <motion.div
+          {/* <motion.div
             initial={{ scale: 0, opacity: 0 }}
             animate={{ scale: 1, opacity: 1 }}
             transition={{ duration: 0.5, delay: 0.8 }}
@@ -80,7 +75,7 @@ const Hero = () => {
                 <span className="text-muted-foreground">Experience</span>
               </div>
             </div>
-          </motion.div>
+          </motion.div> */}
 
           {/* "A CREATIVE UX/UI DESIGNER" pill — far right, lower */}
           <motion.div
@@ -102,15 +97,15 @@ const Hero = () => {
                 </svg>
               </div>
               <h2 className="relative z-10 text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-heading font-bold leading-tight text-foreground uppercase tracking-wide">
-                A Creative
+                A Media &
                 <br />
-                Media Profesional
+                PR Profesional
               </h2>
             </div>
           </motion.div>
 
           {/* "325+ Happy Clients" badge — bottom left */}
-          <motion.div
+          {/* <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.9 }}
@@ -132,7 +127,7 @@ const Hero = () => {
                 ))}
               </div>
             </div>
-          </motion.div>
+          </motion.div> */}
 
           {/* Decorative sparkle elements */}
           <motion.div

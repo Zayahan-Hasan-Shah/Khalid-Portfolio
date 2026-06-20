@@ -33,7 +33,7 @@ const Header = () => {
     >
       <div className="container-narrow flex items-center justify-between h-16 md:h-20">
         <a href="#home" className="font-heading text-2xl font-bold tracking-tight text-foreground">
-          Syed Khalid
+          Syed Khalid Hassan
         </a>
 
         {/* Desktop Nav */}
