@@ -1,41 +1,41 @@
 import { motion } from "framer-motion";
 import { useScrollAnimation } from "..//hooks/useScrollAnimation";
-import { Camera, Video, Mic, Users, Lightbulb, Settings } from "lucide-react";
+import { Users, Calendar, BookOpen, Briefcase, Laptop, Target } from "lucide-react";
 import professionalPhoto from "../assets/PIC.jpg";
 
 const leftservices = [
   {
-    icon: Video,
-    title: "Production & Creative",
-    desc: "Photography, Videography & Cinematography\nLighting setups (studio & natural)\nColor grading & correction\nSound design & audio syncing\nScriptwriting & storytelling\nGraphic Designing\nCreative direction",
-  },
-  {
     icon: Users,
-    title: "Marketing & Campaigns",
-    desc: "Campaign Designing & Execution\nEvent Management\nInfluencer Marketing\nDigital Marketing Strategy\Social Media Content Creation (Instagram, YouTube, TikTok)",
+    title: "PR & Communications",
+    desc: "Press release writing\nNewsletter production (Mailchimp)\nMedia & influencer relations\nMedia monitoring & coverage\nStakeholder communications",
   },
   {
-    icon: Settings,
-    title: "Technical Tools",
-    desc: "Adobe Premiere Pro\nAdobe Photoshop & Illustrator\nLightroom CC\nCapCut\nSnapseed\nCanva",
+    icon: Calendar,
+    title: "Events & Coordination",
+    desc: "Corporate event coordination\nEnd-to-end roadshow management\nOn-ground logistics\nScheduling & stakeholder liaison\nCross-functional collaboration",
+  },
+  {
+    icon: BookOpen,
+    title: "Editorial & Journalism",
+    desc: "Feature writing & book reviews\nSub-editing & proofreading\nGeopolitics & current affairs coverage\nEditorial planning",
   },
 ];
 
 const rightServices = [
   {
-    icon: Camera,
-    title: "Equipment Handling",
-    desc: "Sony A7III, A6400, A6300\nCanon M50, Canon 6D",
+    icon: Briefcase,
+    title: "Industry Experience",
+    desc: "Travel & hospitality\nAviation & trade representation\nGovernment & NGO campaigns\nInternational trade events",
   },
   {
-    icon: Lightbulb,
-    title: "Professional Strengths",
-    desc: "Client communication\nTeam collaboration\nDeadline management\nProblem-solving in fast-paced environments\nAdaptability & self-learning",
+    icon: Laptop,
+    title: "Tools & Platforms",
+    desc: "Mailchimp\nCanva\nWordPress\nWorkplace (Meta)\nMS Office Suite",
   },
   {
-    icon: Mic,
-    title: "Content & Media Presence",
-    desc: "Content Creation\nComfortable and confident in front of camera\nOn-camera presentation & performance\nAdaptability & self-learning",
+    icon: Target,
+    title: "Campaign Management",
+    desc: "End-to-end campaign design\nDigital rights & advocacy\nGovernment road safety comms\nBrand consistency & reporting\nContent & narrative development",
   },
 ];
 
