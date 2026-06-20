@@ -16,6 +16,12 @@ const experiences = [
     description: "Communications and liaison for international trade events including the Brazilian Trade Commission at Gulfood Green and the AviaReps Roadshow. Drafted press releases, produced newsletters via Mailchimp, managed media and influencer relations, and coordinated on-ground logistics across all stakeholder communications.",
   },
   {
+    role: "Representative",
+    company: "Capital Travels Maldives (Arabian Travel Market Expo)",
+    location: "Dubai, UAE",
+    description: "Represented Capital Travels Maldives at the Arabian Travel Market Expo, one of the world's largest international aviation and travel trade exhibitions, engaging visitors at the Maldives stand and participating in business meetings. Gained firsthand experience of how airlines, tour operators, and global tourism stakeholders collaborate to structure travel packages and drive international tourism.",
+  },
+  {
     role: "Campaign Manager",
     company: "Media Matters for Democracy",
     location: "Karachi, PK",
