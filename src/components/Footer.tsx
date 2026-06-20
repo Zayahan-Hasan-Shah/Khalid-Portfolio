@@ -76,7 +76,7 @@ const socials = [
   { icon: Facebook, href: "#", label: "Facebook" },
   { icon: Twitter, href: "#", label: "Twitter" },
   { icon: Linkedin, href: "#", label: "LinkedIn" },
-  { icon: Instagram, href: "#", label: "Instagram" },
+  { icon: Instagram, href: "https://www.instagram.com/syed_khalidhassan2000", label: "Instagram" },
 ];
 
 const Footer = () => {

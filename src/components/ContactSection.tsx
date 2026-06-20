@@ -1,7 +1,26 @@
 import { motion } from "framer-motion";
 import { useScrollAnimation } from "../hooks/useScrollAnimation";
-import { MapPin, Mail, Phone, Send } from "lucide-react";
+import { Mail, Phone, Send } from "lucide-react";
 import { useState } from "react";
+
+const InstagramIcon = (props: React.SVGProps<SVGSVGElement> & { size?: number }) => (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    width={props.size || 24}
+    height={props.size || 24}
+    viewBox="0 0 24 24"
+    fill="none"
+    stroke="currentColor"
+    strokeWidth="2"
+    strokeLinecap="round"
+    strokeLinejoin="round"
+    {...props}
+  >
+    <rect width="20" height="20" x="2" y="2" rx="5" ry="5" />
+    <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" />
+    <line x1="17.5" x2="17.51" y1="6.5" y2="6.5" />
+  </svg>
+);
 
 const ContactSection = () => {
   const { ref, isVisible } = useScrollAnimation();
@@ -54,15 +73,15 @@ const ContactSection = () => {
               </div> */}
               <div className="flex items-start gap-4">
                 <div className="w-11 h-11 rounded-xl bg-secondary flex items-center justify-center flex-shrink-0">
-                  <MapPin size={18} strokeWidth={1.5} />
+                  <InstagramIcon size={18} strokeWidth={1.5} />
                 </div>
                 <div>
                   <p className="font-medium text-sm text-foreground">
                     Instagram
                   </p>
                   <p className="text-xs text-muted-foreground mt-1">
-                    <a target="_blank" href="#">
-                      syedkhalid
+                    <a target="_blank" href="https://www.instagram.com/syed_khalidhassan2000" rel="noopener noreferrer" className="hover:text-coral transition-colors">
+                      @syed_khalidhassan2000
                     </a>
                   </p>
                 </div>
@@ -77,8 +96,8 @@ const ContactSection = () => {
                     Email Address
                   </p>
                   <p className="text-xs text-muted-foreground mt-1">
-                    <a href="mailto:syedkhalid@gmail.com">
-                      syedkhalid@gmail.com
+                    <a href="mailto:khalid.hassan3000@gmail.com" className="hover:text-coral transition-colors">
+                      khalid.hassan3000@gmail.com
                     </a>
                   </p>
                 </div>
@@ -91,7 +110,7 @@ const ContactSection = () => {
                 <div>
                   <p className="font-medium text-sm text-foreground">Phone</p>
                   <p className="text-xs text-muted-foreground mt-1">
-                    <a href="tel:923010589172">
+                    <a href="tel:923010589172" className="hover:text-coral transition-colors">
                       +92 301 0589172
                     </a>
                   </p>

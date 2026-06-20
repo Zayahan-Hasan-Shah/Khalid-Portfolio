@@ -45,6 +45,7 @@ const memories = [
   {
     id: 3,
     category: "Product Photography & Creative Shoots",
+    description: "Directed commercial product photography and visual layouts for creative campaigns. Managed set styling, creative direction, and digital branding assets, delivering high-impact aesthetics optimized for e-commerce and web platforms.",
     icon: Camera,
     images: [product1, product2],
     color: "from-purple-500/20 to-purple-600/20"
